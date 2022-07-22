@@ -1,3 +1,4 @@
+//converting a binary to integer
 import java.lang.Math;
 import java.util.Scanner;
 class first
