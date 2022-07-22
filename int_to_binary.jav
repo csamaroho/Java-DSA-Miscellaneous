@@ -7,15 +7,13 @@ class first
        {
            String res=" ";
            int quo,rem;
+           if(str==0)
+           {
+            return "0";
+           }
            while(str>0)
            {
-            if(str%2==1)
-            {
-            res='1'+res;
-            }
-            else{
-            res='0'+res;
-            }
+            res=str%2+res;
             str=str/2;
            }
            return res;
